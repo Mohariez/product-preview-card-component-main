@@ -1,0 +1,153 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Montserrat','sans-serif';
+    background:hsl(30, 38%, 92%);
+}
+
+
+main{
+    width: 90%;
+    max-width: 370px;
+    margin-inline: auto;
+    padding: 2rem;
+    margin-top: 1%;
+
+}
+
+.product-image img{
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    width: 100%; 
+    background:white;
+    height: 100%;
+}
+
+.product-image{
+    background: white;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    
+}
+
+p{
+    color:hsl(228, 12%, 48%);
+    margin-bottom: 10px;
+    margin:0%;
+}
+
+p.title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.shop{
+    background-color: white;
+    line-height: 25px;
+    padding: 20px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    margin: none;
+}
+
+h2{
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-family:'Fraunces', serif; 
+    margin-bottom: 3%;
+    margin-top: 2%;
+    width: 90%;
+}
+
+.cart{
+    background-color:hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    line-height: 35px;
+    margin-top: 4%;
+}
+
+.price{
+    display:flex;
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom:4% ;
+}
+
+span.new{
+    font-weight: bolder;
+    font-family:'Fraunces', serif; 
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+}
+
+span.old{
+    color:hsl(228, 12%, 48%) ;
+    text-decoration: line-through;
+    font-size: 65%;
+}
+
+@media screen and (min-width: 47.5rem) {
+    main{
+        display: flex;
+        padding: 0;
+        margin: auto;
+        margin-top: 5%;
+        min-width: 30.5rem;
+        margin-bottom: 3%;
+        margin-top: 10%;
+    }
+
+    .product-image img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-image{
+        background:hsl(30, 38%, 92%); 
+    }
+
+    .shop{
+        border-bottom-left-radius:0%;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius:5px;
+        width: 115%;
+    }
+
+    .price{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    h2{
+        margin-top: 5%;
+        margin-bottom: 4%;
+        width: 80%;
+    }
+}
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+
